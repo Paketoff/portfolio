@@ -1,0 +1,48 @@
+.stack {
+  padding-top: 125px;
+  &__title {
+    position: relative;
+    text-align: center;
+    @include before_circle;
+    &:before {
+      position: absolute;
+      top: 5;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  &__subtitle {
+    text-align: center;
+  }
+  &__wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: 60px 0px 120px 0px;
+    
+  }
+  &__item {
+    max-width: 270px;
+    max-height: 270px;
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 24px;
+    &-text {
+      width: 211px;
+      height: 94px;
+      color: #000;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      text-align: justify;
+      margin-top: 15px;
+    }
+    &-title {
+      margin-top: 20px;
+    }
+  }
+}
