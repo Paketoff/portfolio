@@ -17,7 +17,7 @@
     display: grid;
     padding: 60px 65px 0 65px;
     grid-template-columns: repeat(2, 425px);
-    column-gap: 135px;
+    column-gap: 150px;
   }
   &__column-title {
     position: relative;
@@ -37,6 +37,7 @@
   }
   ul {
     list-style-type: none;
+
     // li {
     //   position: relative;
     //   &:after {
@@ -77,5 +78,8 @@
     font-weight: 500;
     line-height: normal;
     text-align: justify;
+  }
+  &__item {
+    padding-top: 50px;
   }
 }

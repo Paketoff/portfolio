@@ -7,46 +7,18 @@
     <title>Portfolio</title>
     <meta name="title" content="Мое портфолио">
     <meta name="description" content="Здесь вы сможете ознакомиться с моими работами и узнать больше обо мне">
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://metatags.io/">
-    <meta property="og:title" content="Мое портфолио">
-    <meta property="og:description" content="Здесь вы сможете ознакомиться с моими работами и узнать больше обо мне">
-    <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://metatags.io/">
-    <meta property="twitter:title" content="Мое портфолио">
-    <meta property="twitter:description" content="Здесь вы сможете ознакомиться с моими работами и узнать больше обо мне">
-    <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
-
-    <!-- Favicon  -->
-    <link rel="apple-touch-icon" sizes="57x57" href="icons/favicon//apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="icons/favicon//apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="icons/favicon//apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="icons/favicon//apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="icons/favicon//apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="icons/favicon//apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="icons/favicon//apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="icons/favicon//apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="icons/favicon//apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="icons/favicon//android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon//favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon//favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon//favicon-16x16.png">
-    <link rel="manifest" href="icons/favicon//manifest.json">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
+    
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="icons/favicon//ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
     <aside class="sidepanel">
-        <a href="#" class="sidepanel__links"><img src="icons/social/telegram.svg" alt="telegram"></a>
-        <a href="#" class="sidepanel__links"><img src="icons/social/github.svg" alt="github"></a>
+        <a href="https://t.me/ukr_slayer" class="sidepanel__links"><img src="icons/social/telegram.svg" alt="telegram"></a>
+        <a href="https://github.com/Paketoff" class="sidepanel__links"><img src="icons/social/github.svg" alt="github" width="30px" height="30px"></a>
         <div class="sidepanel__divider"></div>
         <div class="sidepanel__text"><span>Социальные сети</span></div>
     </aside>
@@ -60,22 +32,20 @@
             </div>
             <nav>
                 <ul class="menu__list">
-                    <li class="menu__link"><a href="#">ПРО МЕНЯ</a></li>
-                    <li class="menu__link"><a href="#">МОЙ ОПЫТ</a></li>
-                    <li class="menu__link"><a href="#">МОИ НАВЫКИ</a></li>
-                    <li class="menu__link"><a href="#">МОИ РАБОТЫ</a></li>
-                    <li class="menu__link"><a href="#">ПРАЙС-ЛИСТ</a></li>
-                    <li class="menu__link"><a href="#">КОНТАКТЫ</a></li>
+                    <li class="menu__link"><a href="#about">ПРО МЕНЯ</a></li>
+                    <li class="menu__link"><a href="#resume">МОИ НАВЫКИ</a></li>
+                    <li class="menu__link"><a href="#portfolio">МОИ РАБОТЫ</a></li>
+                    <li class="menu__link"><a href="#contacts">КОНТАКТЫ</a></li>
                 </ul>
             </nav>
 
             <div class="menu__socials">
-                <a href="#">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+                <a href="https://github.com/Paketoff">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 20 19" fill="none">
                         <path d="M10 0C4.475 0 0 4.36167 0 9.74107C0 14.0457 2.865 17.6962 6.8375 18.9832C7.3375 19.0749 7.52083 18.7734 7.52083 18.5148C7.52083 18.2835 7.5125 17.6706 7.50833 16.8585C4.72667 17.4459 4.14 15.5517 4.14 15.5517C3.685 14.4274 3.0275 14.1267 3.0275 14.1267C2.12167 13.5228 3.0975 13.5352 3.0975 13.5352C4.10167 13.603 4.62917 14.5389 4.62917 14.5389C5.52083 16.0283 6.97 15.5979 7.54167 15.3493C7.63167 14.719 7.88917 14.2903 8.175 14.0466C5.95417 13.8029 3.62 12.9652 3.62 9.23304C3.62 8.16988 4.0075 7.30085 4.64917 6.61934C4.53667 6.37316 4.19917 5.3827 4.73667 4.04116C4.73667 4.04116 5.57417 3.78012 7.48667 5.03988C8.28667 4.82345 9.13667 4.71606 9.98667 4.7111C10.8367 4.71606 11.6867 4.82345 12.4867 5.03988C14.3867 3.78012 15.2242 4.04116 15.2242 4.04116C15.7617 5.3827 15.4242 6.37316 15.3242 6.61934C15.9617 7.30085 16.3492 8.16988 16.3492 9.23304C16.3492 12.9752 14.0117 13.7987 11.7867 14.0383C12.1367 14.3307 12.4617 14.928 12.4617 15.8408C12.4617 17.1444 12.4492 18.1918 12.4492 18.5082C12.4492 18.7635 12.6242 19.0683 13.1367 18.9708C17.1375 17.692 20 14.0391 20 9.74107C20 4.36167 15.5225 0 10 0Z" fill="#212121"/>
                       </svg>
                 </a>
-                <a href="#">
+                <a href="https://t.me/ukr_slayer">
                     <img src="icons/social/telegram.svg" alt="telegram">
                 </a>
             </div>
@@ -85,7 +55,7 @@
         </div>
     </div>
 
-    <section class="promo">
+    <section class="promo" id="promo">
         <div class="hamburger">
             <span></span>
             <span class="long"></span>
@@ -105,20 +75,21 @@
         </div>
     </section>
 
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             <div class="about__wrapper">
                 <div class="about__photo">
-                    <img src="img/main_photo.jpg" alt="" class="about__photo">
+                    <img src="img/portf.jpg" alt="" class="about__photo">
                 </div>
                 <div class="about__desc">
                     <h2 class="title title_fz16 about__title">Про меня</h2>
                     <div class="title title_fz36 about__subtitle">Меня зовут Роман</div>
                     <div class="divider"></div>
-                    <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, at? Beatae commodi, sunt hic delectus, cupiditate soluta nisi possimus saepe officiis optio facere minima amet provident ullam quibusdam incidunt ipsa.
-                    Ipsum eius perspiciatis aspernatur tempore voluptatibus, officiis non architecto, sunt omnis laborum at dignissimos delectus dolorum incidunt voluptas iure amet id suscipit praesentium alias blanditiis minima? Suscipit animi expedita ipsum.
-                    Facilis non eligendi quaerat velit, perspiciatis similique eius culpa odio eos perferendis optio iste. Illum repellendus natus non esse eligendi iusto aspernatur adipisci, error facilis. Eaque quis aliquid cupiditate at.
-                </p>
+                    <p class="about__text">
+                        Я - Full-Stack веб-разработчик из Харькова. Я начал увлекаться вёрсткой сайтов когда я был в 
+                        10-ом классе школы и с тех пор я посвятил себя разработке веб-приложений. Я получил образование в 
+                        университете ХНУРЭ (Харьковский Национальный Университет Радиоэлектроники) по специальности Компьютерные Науки и Технологии (Computer Science and Technologies). Во время моего обучения я всё больше погружался в веб-разработку, изучая новые этапы разработки и технологии для построения полноценных веб-приложений. В итоге, все разработанные мною продукты проходят этапы бизнес-анализа, построения архитектуры системы, техническую реализацию системы и построение веб-интерфейса системы. С примерами моих работ вы можете ознакомиться ниже. Я всегда в поиске интересных проектов и решений, по этому если у Вас образовалась идея которую вы хотите воплотить при помощи веб-технологий - я всегда буду рад Вам помочь!
+                    </p>
                 </div>
                 <div class="about__skills">
                     <div class="about__skills-item">
@@ -127,10 +98,10 @@
                         </div>
                         <div>
                             <div class="title title_fz14">
-                                Web-разработка
+                                Front-End разработка
                             </div>
                             <div class="about__skills-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In corrupti, laborum porro repellat voluptatem eligendi dolores numquam labore! Eligendi corrupti minus vero, harum voluptatem quaerat magnam consequuntur deleniti dolor dolores.
+                                Я занимаюсь реализацией веб-интерфейсов и всё что с ними связано при помощи технологий HTML5 (разметка гипертекста), CSS3 (таблица каскадных стилей), языков программирования JavaScript & TypeScript и фреймворка Angular. Такой набор технологий front-end разработки позволяет писать гибкие и простые решения. 
                             </div>
                         </div>
                     </div>
@@ -140,10 +111,10 @@
                         </div>
                         <div>
                             <div class="title title_fz14">
-                                Web-разработка
+                                Back-End разработка
                             </div>
                             <div class="about__skills-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In corrupti, laborum porro repellat voluptatem eligendi dolores numquam labore! Eligendi corrupti minus vero, harum voluptatem quaerat magnam consequuntur deleniti dolor dolores.
+                                Я реализую бизнес-логику веб-приложений используя технологии реляционных баз данных (MySQL & Postgres), язык программирования TypeScript со средой выполнения Node.js и фреймворком NestJS. Имел опыт разработки веб-приложений на ООП-языке Java, используя фреймворк Spring, так же вместо фреймворка NestJS могу использовать фреймворк Express. С нереляционными базами данных не работаю. 
                             </div>
                         </div>
                     </div>
@@ -153,10 +124,10 @@
                         </div>
                         <div>
                             <div class="title title_fz14">
-                                Web-разработка
+                                Full-Stack разработка
                             </div>
                             <div class="about__skills-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In corrupti, laborum porro repellat voluptatem eligendi dolores numquam labore! Eligendi corrupti minus vero, harum voluptatem quaerat magnam consequuntur deleniti dolor dolores.
+                                Я так-же имею возможность разрабатывать веб-приложения полноценно, сразу используя back-end & front-end подходы и технологии соответственно. Такой подход позволят Вам экономить ресурсы на остальных разработчиков. В основном я разрабатываю веб-приложения на трёхслойной архитектуре (Сервер БД-Сервер бизнес-логики-Клиент), но так же имею небольшой опыт разработки веб-приложений на микросервисной архитектуре.
                             </div>
                         </div>
                     </div>
@@ -164,7 +135,7 @@
             </div>
         </div>
     </section>
-    <section class="resume">
+    <section class="resume" id="resume">
         <div class="container">
             <h2 class="title title_fz16 resume__title">
                 Опыт
@@ -185,8 +156,7 @@
                                 <div class="resume__item-diploma">Диплом бакалавра | Харьков (2019-2023)</div>
                             </div>
                             <div class="resume__item-body">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique odit facilis accusamus libero nam eveniet voluptatem impedit. Ad, dolore veniam amet, eveniet veritatis, modi quidem corrupti minima incidunt atque est.
-                                Velit ea itaque voluptas animi unde! Ab, nesciunt asperiores commodi non dolorum reprehenderit quidem, similique eaque tenetur quis quaerat, tempore repellat beatae? Sed tempora blanditiis autem expedita soluta corrupti sequi!
+                                Я получил степень бакалавра компьютерных наук (Computer Science and Technologies) в ХНУРЭ (Харьковский Национальный Университет Радиоэлектроники) который являеться одним из лучших IT-ВУЗов Украины. Я получил опыт разработки веб-приложений, в частности  я имею опыт со всеми этапами разработки веб-продуктов, методологии разработки веб-продуктов, опыт работы с различными технологиями реализации бизнес-задач на различных этапах разработки и так же небольшой опыт в остальных направлениях Computer Science, например, реализация некоторых математических алгоритмов и структур данных, разработка простых нейронных сетей или даже разработка простых 2D игр. 
                             </div>
                           </div>  
                           <div class="resume__item">
@@ -198,8 +168,7 @@
                                 <div class="resume__item-diploma">Курсы по Web-разработке</div>
                             </div>
                             <div class="resume__item-body">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique odit facilis accusamus libero nam eveniet voluptatem impedit. Ad, dolore veniam amet, eveniet veritatis, modi quidem corrupti minima incidunt atque est.
-                                Velit ea itaque voluptas animi unde! Ab, nesciunt asperiores commodi non dolorum reprehenderit quidem, similique eaque tenetur quis quaerat, tempore repellat beatae? Sed tempora blanditiis autem expedita soluta corrupti sequi!
+                                В свободное время я часто люблю дополнительно учиться и изучать что-то новое, что связанно с областью Computer Science. Одним из источников вдохновения и изучения веб-разработки являеться платформа профессиональных курсов Udemy, на которой я часто изучал, например, вёрстку и front-end разработку веб-приложений авторства Ивана Петриченко и back-end разработку на Java. Я очень люблю эту платформу за её удобство и качество преподавания, где авторами зачастую являються бывшие/нынешние опытные разработчики или преподаватели университетов. 
                             </div>
                           </div>   
                           <div class="resume__item">
@@ -211,8 +180,7 @@
                                 <div class="resume__item-diploma">Программа Digital Ukraine: Ensuring academic success in times of crisis (2022)</div>
                             </div>
                             <div class="resume__item-body">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique odit facilis accusamus libero nam eveniet voluptatem impedit. Ad, dolore veniam amet, eveniet veritatis, modi quidem corrupti minima incidunt atque est.
-                                Velit ea itaque voluptas animi unde! Ab, nesciunt asperiores commodi non dolorum reprehenderit quidem, similique eaque tenetur quis quaerat, tempore repellat beatae? Sed tempora blanditiis autem expedita soluta corrupti sequi!
+                                Во время моего обучения в университете я так же прошёл программу Digital Ukraine, которая являлась 'мостиком' для обучения с немецким техническим университетом прикладных наук Вильдау, крупнейшим из пяти университетов прикладных наук в федеральной земле Бранденбург, Германия, получив сертификат с оценкой "B".
                             </div>
                           </div>  
                         </li>
@@ -221,7 +189,7 @@
             </div>
         </div>
     </section>
-    <section class="stack">
+    <section class="stack" id="stack">
         <div class="container">
             <h2 class="title title_fz16 stack__title">Навыки</h2>
             <div class="title title_fz48 stack__subtitle">Что я использую в работе</div>
@@ -235,7 +203,7 @@
                         HTML5
                     </div>
                     <div class="stack__item-text">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio veritatis iure commodi quia perspiciatis modi, quidem sit vero libero eos provident quae, hic placeat animi exercitationem numquam nostrum, ex labore.
+                        Именно он создает каркас вашего сайта или приложения, а пятая версия позволит мне создавать более SEO-оптимизированную структуру вашего продукта
                     </div>
                 </div>
                 <div class="stack__item">
@@ -246,7 +214,7 @@
                         CSS3
                     </div>
                     <div class="stack__item-text">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio veritatis iure commodi quia perspiciatis modi, quidem sit vero libero eos provident quae, hic placeat animi exercitationem numquam nostrum, ex labore.
+                        Этот язык стилей позволяет мне создавать абсолютно любой внешний вид вашего сайта или приложения. Все ограничивается только вашей фантазией!
                     </div>
                 </div>
                 <div class="stack__item">
@@ -257,7 +225,7 @@
                         Java Script
                     </div>
                     <div class="stack__item-text">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio veritatis iure commodi quia perspiciatis modi, quidem sit vero libero eos provident quae, hic placeat animi exercitationem numquam nostrum, ex labore.
+                        JavaScript является одним из самых популярных языков программирования, который обеспечивает динамическое и интерактивное взаимодействие на вашем сайте или в приложении.
                     </div>
                 </div>
                 <div class="stack__item">
@@ -268,7 +236,7 @@
                         Type Script
                     </div>
                     <div class="stack__item-text">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio veritatis iure commodi quia perspiciatis modi, quidem sit vero libero eos provident quae, hic placeat animi exercitationem numquam nostrum, ex labore.
+                        TypeScript - это язык программирования, который является надмножеством JavaScript. Он предоставляет дополнительные возможности статической типизации и позволяет мне разрабатывать приложения с более надежной и поддерживаемой кодовой базой. 
                     </div>
                 </div>
                 <div class="stack__item">
@@ -279,7 +247,7 @@
                         Node.js
                     </div>
                     <div class="stack__item-text">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio veritatis iure commodi quia perspiciatis modi, quidem sit vero libero eos provident quae, hic placeat animi exercitationem numquam nostrum, ex labore.
+                        Node.js - это среда выполнения JavaScript, которая работает на стороне сервера. Она позволяет мне разрабатывать масштабируемые и быстрые серверные приложения. Благодаря Node.js я могу обрабатывать HTTP-запросы, работать с файловой системой, устанавливать соединения с базами данных и многое другое.
                     </div>
                 </div>
                 <div class="stack__item">
@@ -290,7 +258,7 @@
                         Angular Framework
                     </div>
                     <div class="stack__item-text">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio veritatis iure commodi quia perspiciatis modi, quidem sit vero libero eos provident quae, hic placeat animi exercitationem numquam nostrum, ex labore.
+                        Angular - это платформа для разработки мощных и масштабируемых веб-приложений. Он предоставляет инструменты для создания компонентов, управления состоянием приложения, маршрутизации и многого другого.    
                     </div>
                 </div>
                 <div class="stack__item">
@@ -301,7 +269,7 @@
                         NestJS Framework
                     </div>
                     <div class="stack__item-text">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio veritatis iure commodi quia perspiciatis modi, quidem sit vero libero eos provident quae, hic placeat animi exercitationem numquam nostrum, ex labore.
+                        NestJS - это фреймворк для создания масштабируемых и эффективных серверных приложений на Node.js. Он основан на принципах модульности и использует TypeScript в качестве основного языка программирования. 
                     </div>
                 </div>
                 <div class="stack__item">
@@ -312,30 +280,50 @@
                         MySQL Relational Database
                     </div>
                     <div class="stack__item-text">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio veritatis iure commodi quia perspiciatis modi, quidem sit vero libero eos provident quae, hic placeat animi exercitationem numquam nostrum, ex labore.
+                        MySQL - это популярная система управления реляционными базами данных. Она предоставляет надежное и эффективное хранение данных для вашего приложения. MySQL позволяет мне создавать таблицы, устанавливать связи между ними, выполнять запросы для получения и изменения данных. 
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="portfolio">
+    <section class="portfolio" id="portfolio">
         <div class="container">
             <h2 class="title title_fz16 portfolio__title">Портфолио</h2>
             <div class="title title_fz48 portfolio__subtitle">Мои работы</div>
             <div class="divider"></div>
 
             <div class="portfolio__wrapper">
-                <a href="#" class="portfolio__item">
+                <a href="https://github.com/paketoff/pulse" class="portfolio__item">
                     <img src="img/works/pulse.jpg" alt="pulse">
+                </a>
+                <a href="https://github.com/paketoff/fitness_club" class="portfolio__item">
+                    <img src="https://imgur.com/1o1vmiv" alt="body_club">
+                </a>
+                <a href="https://github.com/paketoff/weather_cli" class="portfolio__item">
+                    <img src="img/works/weather.jpg" alt="weather_cli">
+                </a>
+                <a href="https://github.com/paketoff/uber" class="portfolio__item">
+                    <img src="img/works/uber.jpg" alt="uber">
+                </a>
+                <a href="https://github.com/paketoff/todo-api" class="portfolio__item">
+                    <img src="img/works/todo.png" alt="todo-app">
+                </a>
+                
+                <a href="https://github.com/paketoff/express-auth-logger" class="portfolio__item" >
+                    <img src="img/works/logger.png" alt="API-logger">
+                </a>
+                <a href="https://github.com/paketoff/food-js-app" class="portfolio__item" style="grid-column-start: 1; 
+                    grid-column-end: 3;">
+                    <img src="img/works/food.png" alt="food" >
                 </a>
             </div>
         </div>
     </section>
-    <section class="contacts">
+    <section class="contacts" id="contacts">
         <div class="container">
             <div class="contacts__wrapper">
                 <div class="contacts__photo">
-                    <img src="" alt="">
+                    <img src="img/sss.jpg" alt="" class="about__photo">
                 </div>
                 <div class="contacts__about">
                     <h2 class="contacts__title title title_fz16">Контакты</h2>
