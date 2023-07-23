@@ -32,4 +32,17 @@
       filter: grayscale(50%);
     }
   }
+  &__item-w {
+    display: flex;
+    flex-direction: row;
+    margin-top: 75px;
+  }
+  &__item-body-w {
+    display: flex;
+    flex-direction: column;
+  }
+  &__item-w_descr {
+    text-align: justify;
+    padding-right: 50px;
+  }
 }

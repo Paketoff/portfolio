@@ -3,7 +3,7 @@
 .promo {
   min-height: 100vh; //full width monitor
   position: relative;
-  background: url('../img/111.gif') no-repeat;
+  background: url('../img/111.gif') no-repeat ;
   background-position: right;
 
 
@@ -129,6 +129,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 25px;
   }
   &__overlay {
     position: fixed;
